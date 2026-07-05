@@ -96,12 +96,12 @@ google_site_verification:
 bing_site_verification:
 
 # -----------------------------------------------------------------------------
-# Blog
+# Blog / Notes
 # -----------------------------------------------------------------------------
 
 blog_name: Notes
 blog_description: Notes on geometry, geometric analysis, gauge theory, and spectral geometry
-permalink: /blog/:year/:title/
+permalink: /notes/:year/:title/
 lsi: false
 
 pagination:
@@ -127,17 +127,7 @@ giscus:
 
 disqus_shortname: al-folio
 
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-    categories: [external-posts]
-    tags: [medium]
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
-    categories: [external-posts]
-    tags: [google]
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -283,14 +273,14 @@ jekyll-archives:
   posts:
     enabled: [year, tags, categories]
     permalinks:
-      year: "/blog/:year/"
-      tags: "/blog/:type/:name/"
-      categories: "/blog/:type/:name/"
+      year: "/notes/:year/"
+      tags: "/notes/:type/:name/"
+      categories: "/notes/:type/:name/"
   books:
     enabled: [year, tags, categories]
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"]
-display_categories: ["external-services"]
+display_tags: []
+display_categories: []
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
