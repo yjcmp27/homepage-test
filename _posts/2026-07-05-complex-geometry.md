@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Complex Geometry
+title: "Differential Geometry of Complex Vector Bundles"
 date: 2026-07-05
-description: Notes on Kähler geometry, complex vector bundles, Chern classes, Calabi--Yau theory, and Hermitian--Yang--Mills connections.
-tags: complex-geometry kahler-geometry vector-bundles chern-classes hermitian-yang-mills
+description: "Notes on the differential geometry of complex vector bundles, Chern connections, curvature, Chern classes, and Hermitian--Yang--Mills connections."
+tags: notes complex-vector-bundles differential-geometry chern-connections curvature chern-classes hermitian-yang-mills
 categories: notes
 ---
 
