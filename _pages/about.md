@@ -22,7 +22,7 @@ latest_posts:
 
 I am a Ph.D. student in mathematics at the University of Science and Technology of China.
 
-My research focuses on Riemannian geometry and geometric relativity, Yang--Mills equation and gauge theory, and spectral geometry. I am particularly interested in geometric and analytic problems arising from curvature, gauge theory, eigenvalue estimates, and rigidity phenomena.
+My research focuses on Riemannian geometry and geometric relativity, Yang--Mills theory and gauge theory, and spectral geometry. I am particularly interested in geometric and analytic problems related to metrics and curvature, mathematical aspects of general relativity, and gauge-theoretic objects arising from physics, such as instantons and monopoles.
 
 ## Research Interests
 
@@ -32,6 +32,6 @@ My research focuses on Riemannian geometry and geometric relativity, Yang--Mills
 
 ## Contact
 
-Email: [your-email@example.com](mailto:your-email@example.com)
+Email: [yjcmp@mail.ustc.edu.cn](mailto:yjcmp@mail.ustc.edu.cn)
 
 arXiv: [Jiangcheng You](https://arxiv.org/search/?query=Jiangcheng+You&searchtype=author)
