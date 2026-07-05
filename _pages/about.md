@@ -19,7 +19,12 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
-
+<style>
+.social,
+.contact-icons {
+  display: none !important;
+}
+</style>
 I am a Ph.D. student in mathematics at the University of Science and Technology of China.
 
 My research focuses on Riemannian geometry and geometric relativity, Yang--Mills theory and gauge theory, and spectral geometry. I am particularly interested in geometric and analytic problems related to metrics and curvature, mathematical aspects of general relativity, and gauge-theoretic objects arising from physics, such as instantons and monopoles.
