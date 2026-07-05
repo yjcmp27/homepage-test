@@ -1,9 +1,10 @@
 ---
-layout: default
-permalink: /blog/
-title: blog
+layout: page
+title: Notes
+permalink: /notes/
+description: Notes on geometry, geometric analysis, gauge theory, and spectral geometry.
 nav: true
-nav_order: 1
+nav_order: 2
 pagination:
   enabled: true
   collection: posts
