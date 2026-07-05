@@ -1,7 +1,7 @@
 title: blank
-first_name: Jiangcheng
+first_name: Jiangcheng You
 middle_name:
-last_name: You
+last_name: ""
 description: Academic homepage of Jiangcheng You
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
@@ -493,7 +493,7 @@ third_party_libraries:
 
   leaflet:
     integrity:
-      css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
+      css: "sha256-q9ba7o845pMPFU+zcAll8rvxgC+fSovKsOoNQ6cynuQ="
       js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
       js_map: "sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
     local:
