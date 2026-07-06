@@ -10,48 +10,51 @@ pagination:
 ---
 
 <style>
+/* Notes page based on blog posts */
+
+/* Whole list */
 .notes-list {
   margin-top: 2rem;
 }
 
+/* Each item */
 .notes-list .note-item {
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.55rem !important;
 }
 
-/* Make note titles visually consistent with Publications and Talks */
-.notes-list .note-title {
-  font-size: 1.08rem;
-  line-height: 1.4;
-  font-weight: 400;
-  margin-bottom: 0.35rem;
-}
-
+/* Title: close to publication/talk item size */
+.notes-list .note-title,
 .notes-list .note-title a {
+  font-size: 1.08rem !important;
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
   color: var(--global-text-color) !important;
-  text-decoration: none;
+  text-decoration: none !important;
+  margin: 0 0 0.35rem 0 !important;
 }
 
+/* Hover */
 .notes-list .note-title a:hover {
   color: var(--global-theme-color) !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
-/* Description style */
+/* Description */
 .notes-list .note-description {
-  font-size: 1rem;
-  line-height: 1.45;
-  font-weight: 400;
-  margin-bottom: 0.45rem;
-  color: var(--global-text-color);
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
+  font-weight: 400 !important;
+  color: var(--global-text-color) !important;
+  margin: 0 0 0.4rem 0 !important;
 }
 
-/* Date style */
+/* Date */
 .notes-list .note-date {
-  font-size: 0.95rem;
-  line-height: 1.35;
-  font-weight: 400;
-  color: var(--global-text-color-light);
-  margin-bottom: 0;
+  font-size: 0.95rem !important;
+  line-height: 1.35 !important;
+  font-weight: 400 !important;
+  color: var(--global-text-color-light) !important;
+  margin: 0 !important;
 }
 </style>
 
