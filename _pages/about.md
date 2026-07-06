@@ -12,11 +12,17 @@ nav_order: 1
     display: none;
   }
 
+  /* Hide the extra site title on the left of the navbar */
+  .navbar-brand {
+    display: none !important;
+  }
+
+  /* Make navbar links black */
   nav.navbar .navbar-nav .nav-item .nav-link,
   nav.navbar .navbar-nav .nav-item .nav-link.active,
   nav.navbar .navbar-nav .nav-item.active .nav-link,
   nav.navbar .navbar-nav .nav-link:hover,
-  nav.navbar .navbar-brand {
+  nav.navbar .navbar-nav .nav-link:visited {
     color: #222 !important;
   }
 
@@ -29,7 +35,7 @@ nav_order: 1
   .home-top {
     display: flex;
     align-items: flex-start;
-    gap: 6rem;
+    gap: 9rem;
     margin-top: 1.5rem;
     margin-bottom: 3.5rem;
   }
