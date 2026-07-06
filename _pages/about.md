@@ -1,44 +1,58 @@
 ---
-layout: about
-title: About
+layout: page
+title: about
 permalink: /
-subtitle: Ph.D. student in Mathematics, University of Science and Technology of China
-
-profile: false
-
-selected_papers: false
-social: false
-
-announcements:
-  enabled: false
-  scrollable: true
-  limit: 5
-
-latest_posts:
-  enabled: false
-  scrollable: true
-  limit: 3
+subtitle:
+nav: true
+nav_order: 1
 ---
-<style>
-.social,
-.contact-icons {
-  display: none !important;
-}
-</style>
-I am a Ph.D. student in mathematics at the University of Science and Technology of China.
 
-My research focuses on Riemannian geometry and geometric relativity, Yang--Mills theory and gauge theory, and spectral geometry. I am particularly interested in geometric and analytic problems related to metrics and curvature, mathematical aspects of general relativity, and gauge-theoretic objects arising from physics, such as instantons and monopoles.
+# Jiangcheng You
 
-## Research Interests
+<div class="row mt-4">
 
-- Riemannian geometry and geometric relativity
-- Yang--Mills equation and gauge theory
-- Spectral geometry
+  <div class="col-md-5 mb-4">
+    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/tiger.jpg' | relative_url }}" alt="tiger">
+  </div>
 
-## Contact
+  <div class="col-md-7 mb-4">
+    <p>
+      Ph.D. student in Mathematics, University of Science and Technology of China
+    </p>
 
-- Email: [yjcmp@mail.ustc.edu.cn](mailto:yjcmp@mail.ustc.edu.cn), [youjiangchengmp@163.com](mailto:youjiangchengmp@163.com), [yjcmp27@gmail.com](mailto:yjcmp27@gmail.com)
-- arXiv: [Jiangcheng You](https://arxiv.org/search/?query=Jiangcheng+You&searchtype=author)
-- ResearchGate: [Jiangcheng You](https://www.researchgate.net/profile/Jiangcheng-You/research)
-- Zhihu: [尤江城](https://www.zhihu.com/people/you-jiang-cheng-35)
-- Xiaohongshu: [尤江城](https://www.xiaohongshu.com/user/profile/6636fe6c0000000007004b38)
+    <p>
+      I am a Ph.D. student in mathematics at the University of Science and Technology of China.
+    </p>
+
+    <p>
+      My research focuses on Riemannian geometry and geometric relativity, Yang--Mills theory and gauge theory, and spectral geometry. I am particularly interested in geometric and analytic problems related to metrics and curvature, mathematical aspects of general relativity, and gauge-theoretic objects arising from physics, such as instantons and monopoles.
+    </p>
+  </div>
+
+</div>
+
+<div class="row mt-3">
+
+  <div class="col-md-6 mb-4">
+    <h2>Research Interests</h2>
+
+    <ul>
+      <li>Riemannian geometry and geometric relativity</li>
+      <li>Yang--Mills equation and gauge theory</li>
+      <li>Spectral geometry</li>
+    </ul>
+  </div>
+
+  <div class="col-md-6 mb-4">
+    <h2>Contact</h2>
+
+    <ul>
+      <li>Email: <a href="mailto:yjcmp@mail.ustc.edu.cn">yjcmp@mail.ustc.edu.cn</a>, <a href="mailto:youjiangchengmp@163.com">youjiangchengmp@163.com</a>, <a href="mailto:yjcmp27@gmail.com">yjcmp27@gmail.com</a></li>
+      <li>arXiv: <a href="https://arxiv.org/search/?query=Jiangcheng+You&searchtype=author">Jiangcheng You</a></li>
+      <li>ResearchGate: <a href="https://www.researchgate.net/profile/Jiangcheng-You">Jiangcheng You</a></li>
+      <li>Zhihu: <a href="https://www.zhihu.com/people/you-jiang-cheng">尤江城</a></li>
+      <li>Xiaohongshu: <a href="https://www.xiaohongshu.com/user/profile/6636fe6c0000000007004b38">尤江城</a></li>
+    </ul>
+  </div>
+
+</div>
