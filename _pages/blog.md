@@ -10,31 +10,32 @@ pagination:
 
 <style>
 .notes-list {
-  margin-top: 2rem;
+  margin-top: 2.2rem;
 }
 
+/* spacing between different notes: match Talks list spacing */
 .notes-list .note-item {
-  margin-bottom: 1.55rem !important;
+  margin-bottom: 1.65rem !important;
 }
 
-/* Note title: black, normally bold, keep current size */
+/* Note title: match Talks title */
 .notes-list .note-title,
 .notes-list .note-title a {
-  font-size: 1.08rem !important;
-  line-height: 1.4 !important;
-  font-weight: 600 !important;
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
+  font-weight: 400 !important;
   color: var(--global-text-color) !important;
   text-decoration: none !important;
-  margin: 0 0 0.35rem 0 !important;
+  margin: 0 !important;
 }
 
-/* Keep title black also when hovering */
+/* keep title black when hovering */
 .notes-list .note-title a:hover {
   color: var(--global-text-color) !important;
-  text-decoration: none !important;
+  text-decoration: underline !important;
 }
 
-/* Note description: black, normal weight, NOT bold */
+/* Note description: match Talks venue line */
 .notes-list .note-description,
 .notes-list .note-description p,
 .notes-list .note-description strong,
@@ -43,16 +44,16 @@ pagination:
   line-height: 1.45 !important;
   font-weight: 400 !important;
   color: var(--global-text-color) !important;
-  margin: 0 0 0.4rem 0 !important;
+  margin: 0.25rem 0 0 0 !important;
 }
 
-/* Note date */
+/* Date: gray, same rhythm as the third line in each item */
 .notes-list .note-date {
-  font-size: 0.95rem !important;
-  line-height: 1.35 !important;
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
   font-weight: 400 !important;
   color: var(--global-text-color-light) !important;
-  margin: 0 !important;
+  margin: 0.25rem 0 0 0 !important;
 }
 </style>
 
