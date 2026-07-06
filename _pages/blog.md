@@ -18,19 +18,16 @@ pagination:
 }
 
 /* Each item */
-.notes-list .note-item {
-  margin-bottom: 1.55rem !important;
-}
-
-/* Title: close to publication/talk item size */
-.notes-list .note-title,
-.notes-list .note-title a {
-  font-size: 1.08rem !important;
-  line-height: 1.4 !important;
+/* Note description: normal weight */
+.notes-list .note-description,
+.notes-list .note-description p,
+.notes-list .note-description strong,
+.notes-list .note-description b {
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
   font-weight: 400 !important;
   color: var(--global-text-color) !important;
-  text-decoration: none !important;
-  margin: 0 0 0.35rem 0 !important;
+  margin: 0 0 0.4rem 0 !important;
 }
 
 /* Hover */
