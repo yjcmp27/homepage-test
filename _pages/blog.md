@@ -2,8 +2,7 @@
 layout: page
 title: Notes
 permalink: /notes/
-description: Notes on geometry, geometric analysis, gauge theory, and spectral geometry.
-nav: true
+description: Here are some notes I took during my studies. Some of them are not yet finished and are still being updated.
 nav_order: 3
 pagination:
   enabled: false
