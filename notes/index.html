@@ -6,31 +6,32 @@
     initTheme();
   </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/homepage-test/"> <span class="font-weight-bold">Jiangcheng You</span> </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/homepage-test/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/homepage-test/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/homepage-test/talks/">Talks </a> </li> <li class="nav-item "> <a class="nav-link" href="/homepage-test/teaching/">TA / Seminar </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Notes</h1> <p class="post-description">Here are some notes I took during my studies. Some of them are not yet finished and are still being updated.</p> </header> <article> <style>
 .notes-list {
-  margin-top: 2rem;
+  margin-top: 2.2rem;
 }
 
+/* spacing between different notes: match Talks list spacing */
 .notes-list .note-item {
-  margin-bottom: 1.55rem !important;
+  margin-bottom: 1.65rem !important;
 }
 
-/* Note title: black, normally bold, keep current size */
+/* Note title: match Talks title */
 .notes-list .note-title,
 .notes-list .note-title a {
-  font-size: 1.08rem !important;
-  line-height: 1.4 !important;
-  font-weight: 600 !important;
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
+  font-weight: 400 !important;
   color: var(--global-text-color) !important;
   text-decoration: none !important;
-  margin: 0 0 0.35rem 0 !important;
+  margin: 0 !important;
 }
 
-/* Keep title black also when hovering */
+/* keep title black when hovering */
 .notes-list .note-title a:hover {
   color: var(--global-text-color) !important;
-  text-decoration: none !important;
+  text-decoration: underline !important;
 }
 
-/* Note description: black, normal weight, NOT bold */
+/* Note description: match Talks venue line */
 .notes-list .note-description,
 .notes-list .note-description p,
 .notes-list .note-description strong,
@@ -39,16 +40,16 @@
   line-height: 1.45 !important;
   font-weight: 400 !important;
   color: var(--global-text-color) !important;
-  margin: 0 0 0.4rem 0 !important;
+  margin: 0.25rem 0 0 0 !important;
 }
 
-/* Note date */
+/* Date: gray, same rhythm as the third line in each item */
 .notes-list .note-date {
-  font-size: 0.95rem !important;
-  line-height: 1.35 !important;
+  font-size: 1rem !important;
+  line-height: 1.45 !important;
   font-weight: 400 !important;
   color: var(--global-text-color-light) !important;
-  margin: 0 !important;
+  margin: 0.25rem 0 0 0 !important;
 }
 </style> <div class="notes-list"> <article class="note-item"> <div class="note-title"> <a href="/homepage-test/notes/2026/yang-mills-blow-up/">Yang--Mills Blow-up Theory</a> </div> <div class="note-description"> Notes based on Uhlenbeck's papers and Yang--Mills lecture notes. </div> <div class="note-date"> July 5, 2026 </div> </article> <article class="note-item"> <div class="note-title"> <a href="/homepage-test/notes/2025/geometry-of-yang-mills-moduli-space/">Geometry of Yang--Mills Moduli Space</a> </div> <div class="note-description"> Notes on the construction and geometry of Yang--Mills moduli spaces. </div> <div class="note-date"> August 21, 2025 </div> </article> <article class="note-item"> <div class="note-title"> <a href="/homepage-test/notes/2024/complex-geometry/">Differential Geometry of Complex Vector Bundles</a> </div> <div class="note-description"> Notes on the differential geometry of complex vector bundles, Chern connections, curvature, Chern classes, and Hermitian--Yang--Mills connections. </div> <div class="note-date"> December 15, 2024 </div> </article> <article class="note-item"> <div class="note-title"> <a href="/homepage-test/notes/2024/harmonic-map-and-pde/">Harmonic Map and PDE</a> </div> <div class="note-description"> Personal notes on harmonic maps, PDE techniques, variational methods, epsilon-regularity, removable singularities, energy identity, and bubble trees. </div> <div class="note-date"> October 17, 2024 </div> </article> </div> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Jiangcheng You . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="external nofollow noopener">al-folio</a> theme. </div> </footer> <script>
   window.alFolio = {
