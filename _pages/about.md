@@ -12,39 +12,86 @@ nav_order: 1
     display: none;
   }
 
-  .home-photo {
-    max-width: 330px;
-    width: 100%;
+  .navbar .nav-link,
+  .navbar .nav-link.active,
+  .navbar .nav-item.active .nav-link {
+    color: #222 !important;
+  }
+
+  .navbar .nav-link:hover {
+    color: #555 !important;
   }
 
   .home-name {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+    font-size: 2.8rem;
   }
 
-  .home-section-title {
+  .home-top {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .home-photo-box {
+    flex: 0 0 330px;
+  }
+
+  .home-photo {
+    width: 330px;
+    max-width: 100%;
+    border-radius: 6px;
+  }
+
+  .home-intro {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .home-bottom {
+    display: flex;
+    gap: 5rem;
+    margin-top: 2rem;
+  }
+
+  .home-section {
+    flex: 1;
+  }
+
+  .home-section h2 {
     margin-bottom: 1rem;
   }
 
-  @media (max-width: 767px) {
-    .home-photo {
-      max-width: 260px;
-      margin-bottom: 1.5rem;
+  @media (max-width: 768px) {
+    .home-top {
+      display: block;
+    }
+
+    .home-photo-box {
+      margin-bottom: 2rem;
+    }
+
+    .home-bottom {
+      display: block;
     }
   }
 </style>
 
 <h1 class="home-name">Jiangcheng You</h1>
 
-<div class="row align-items-start mt-4">
+<div class="home-top">
 
-  <div class="col-md-4 mb-4 text-center text-md-left">
-    <img class="img-fluid rounded z-depth-1 home-photo" src="{{ '/assets/img/tiger.jpg' | relative_url }}" alt="tiger">
+  <div class="home-photo-box">
+    <img class="home-photo z-depth-1" src="{{ '/assets/img/tiger.jpg' | relative_url }}" alt="tiger">
   </div>
 
-  <div class="col-md-8 mb-4">
+  <div class="home-intro">
     <p>
-      Ph.D. student in Mathematics, University of Science and Technology of China
+      
     </p>
 
     <p>
@@ -58,10 +105,10 @@ nav_order: 1
 
 </div>
 
-<div class="row mt-4">
+<div class="home-bottom">
 
-  <div class="col-md-6 mb-4">
-    <h2 class="home-section-title">Research Interests</h2>
+  <div class="home-section">
+    <h2>Research Interests</h2>
 
     <ul>
       <li>Riemannian geometry and geometric relativity</li>
@@ -70,8 +117,8 @@ nav_order: 1
     </ul>
   </div>
 
-  <div class="col-md-6 mb-4">
-    <h2 class="home-section-title">Contact</h2>
+  <div class="home-section">
+    <h2>Contact</h2>
 
     <ul>
       <li>Email: <a href="mailto:yjcmp@mail.ustc.edu.cn">yjcmp@mail.ustc.edu.cn</a>, <a href="mailto:youjiangchengmp@163.com">youjiangchengmp@163.com</a>, <a href="mailto:yjcmp27@gmail.com">yjcmp27@gmail.com</a></li>
