@@ -3,31 +3,13 @@ layout: page
 title: About
 permalink: /
 subtitle:
-nav: true
+nav: false
 nav_order: 1
 ---
 
 <style>
   .post-header {
     display: none;
-  }
-
-  /*
-   * Hide the extra "About" that comes from the navbar brand.
-   * Do not hide the first nav item here, otherwise the real About link
-   * may also disappear.
-   */
-  nav.navbar .navbar-brand {
-    display: none !important;
-  }
-
-  /* Make navbar links black */
-  nav.navbar .navbar-nav .nav-item .nav-link,
-  nav.navbar .navbar-nav .nav-item .nav-link.active,
-  nav.navbar .navbar-nav .nav-item.active .nav-link,
-  nav.navbar .navbar-nav .nav-link:hover,
-  nav.navbar .navbar-nav .nav-link:visited {
-    color: #222 !important;
   }
 
   .home-name {
@@ -39,7 +21,7 @@ nav_order: 1
   .home-top {
     display: grid;
     grid-template-columns: 330px minmax(0, 1fr);
-    column-gap: 8.5rem !important;
+    column-gap: 8.5rem;
     align-items: start;
     margin-top: 1.5rem;
     margin-bottom: 4rem;
@@ -59,7 +41,6 @@ nav_order: 1
     font-size: 1rem;
     line-height: 1.6;
     padding-top: 1rem;
-    padding-left: 0 !important;
     max-width: 620px;
   }
 
@@ -84,7 +65,6 @@ nav_order: 1
     }
 
     .home-intro {
-      padding-left: 0 !important;
       max-width: 100%;
     }
 
