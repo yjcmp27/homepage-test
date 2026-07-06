@@ -1,21 +1,48 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /
 subtitle:
 nav: true
 nav_order: 1
 ---
 
-# Jiangcheng You
+<style>
+  .post-header {
+    display: none;
+  }
 
-<div class="row mt-4">
+  .home-photo {
+    max-width: 330px;
+    width: 100%;
+  }
 
-  <div class="col-md-5 mb-4">
-    <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/tiger.jpg' | relative_url }}" alt="tiger">
+  .home-name {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .home-section-title {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 767px) {
+    .home-photo {
+      max-width: 260px;
+      margin-bottom: 1.5rem;
+    }
+  }
+</style>
+
+<h1 class="home-name">Jiangcheng You</h1>
+
+<div class="row align-items-start mt-4">
+
+  <div class="col-md-4 mb-4 text-center text-md-left">
+    <img class="img-fluid rounded z-depth-1 home-photo" src="{{ '/assets/img/tiger.jpg' | relative_url }}" alt="tiger">
   </div>
 
-  <div class="col-md-7 mb-4">
+  <div class="col-md-8 mb-4">
     <p>
       Ph.D. student in Mathematics, University of Science and Technology of China
     </p>
@@ -31,10 +58,10 @@ nav_order: 1
 
 </div>
 
-<div class="row mt-3">
+<div class="row mt-4">
 
   <div class="col-md-6 mb-4">
-    <h2>Research Interests</h2>
+    <h2 class="home-section-title">Research Interests</h2>
 
     <ul>
       <li>Riemannian geometry and geometric relativity</li>
@@ -44,7 +71,7 @@ nav_order: 1
   </div>
 
   <div class="col-md-6 mb-4">
-    <h2>Contact</h2>
+    <h2 class="home-section-title">Contact</h2>
 
     <ul>
       <li>Email: <a href="mailto:yjcmp@mail.ustc.edu.cn">yjcmp@mail.ustc.edu.cn</a>, <a href="mailto:youjiangchengmp@163.com">youjiangchengmp@163.com</a>, <a href="mailto:yjcmp27@gmail.com">yjcmp27@gmail.com</a></li>
