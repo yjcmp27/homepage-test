@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Geometry of Yang--Mills Moduli Space
-date: 2026-07-05
+date: 2025-07-31
 description: Notes on the construction and geometry of Yang--Mills moduli spaces.
 tags: geometry gauge-theory yang-mills moduli-space
 categories: notes
