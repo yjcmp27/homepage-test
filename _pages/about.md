@@ -29,7 +29,7 @@ nav_order: 1
   .home-top {
     display: flex;
     align-items: flex-start;
-    gap: 5rem;
+    gap: 6rem;
     margin-top: 1.5rem;
     margin-bottom: 3.5rem;
   }
